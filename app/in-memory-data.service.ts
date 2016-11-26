@@ -1,16 +1,16 @@
 export class InMemoryDataService {
   createDb() {
     let heroes = [
-      { id: 11, name: 'Mr. Nice' },
-      { id: 12, name: 'Narco' },
-      { id: 13, name: 'Bombasto' },
-      { id: 14, name: 'Celeritas' },
-      { id: 15, name: 'Magneta' },
-      { id: 16, name: 'RubberMan' },
-      { id: 17, name: 'Dynama' },
-      { id: 18, name: 'Dr IQ' },
-      { id: 19, name: 'Magma' },
-      { id: 20, name: 'Tornado' }
+            { id: 11, name: 'Mr. Nice' },
+            { id: 12, name: 'Leonardo Dicaprio' },
+            { id: 13, name: 'Robert Downey Jr' },
+            { id: 14, name: 'Tom Cruise' },
+            { id: 15, name: 'Johny Depp' },
+            { id: 16, name: 'brad Pitt' },
+            { id: 17, name: 'Will Smith' },
+            { id: 18, name: 'Tom Hanks' },
+            { id: 19, name: 'Mark Wahlberg' },
+            { id: 20, name: 'Dwayne Johnson' }
     ];
     return { heroes };
   }
